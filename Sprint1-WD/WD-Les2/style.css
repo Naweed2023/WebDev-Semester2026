@@ -29,7 +29,7 @@ a {
 
 /* opdracht5: Stijl de afbeelding absolute */
 #fotoWD {
-  position: absolute;
+  position: relative;
   bottom: 0px;
   right: 0px;
 }
