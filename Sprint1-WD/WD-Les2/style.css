@@ -15,3 +15,21 @@ h6 {
 a {
   color: #0066cc;
 }
+
+/* opdracht4a: Stijl de titel met een groene kleur */
+#title-groen {
+  color: green;
+}
+
+/* opdracht4b: zet meerdere links neer */
+.externelink {
+  color: purple;
+  font-style: italic;
+}
+
+/* opdracht5: Stijl de afbeelding absolute */
+#fotoWD {
+  position: absolute;
+  bottom: 0px;
+  right: 0px;
+}
