@@ -16,3 +16,12 @@ h6 {
 p {
   color: #333333;
 }
+#pagina-titel {
+  color: rgb(1, 1, 106);
+}
+
+#foto-confusion {
+  position: relative;
+  bottom: 0px;
+  right: 0px;
+}

@@ -1,7 +1,7 @@
 /* opdracht3: Stijl de html pagina */
 body {
   background: #f2f2f2;
-  font-family: Arial, Helvetica, sans-srif;
+  font-family: Arial, Helvetica, sans-serif;
 }
 
 h1,
@@ -18,7 +18,7 @@ a {
 
 /* opdracht4a: Stijl de titel met een groene kleur */
 #title-groen {
-  color: green;
+  color: rgb(4, 50, 4);
 }
 
 /* opdracht4b: zet meerdere links neer */
