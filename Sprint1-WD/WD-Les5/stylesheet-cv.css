@@ -1,0 +1,100 @@
+/* basis */
+* {
+  box-sizing: border-box;
+}
+body {
+  margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
+  line-height: 1.5;
+}
+a {
+  color: inherit;
+}
+
+.page {
+  max-width: 1000px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+/* skip link */
+.skip-link {
+  position: absolute;
+  left: -9999px;
+  top: 10px;
+  background: #000;
+  color: #fff;
+  padding: 10px 12px;
+}
+.skip-link:focus {
+  left: 10px;
+}
+
+/* layout */
+.hero {
+  display: grid;
+  grid-template-columns: 2fr 1fr;
+  gap: 20px;
+  align-items: start;
+}
+
+.role {
+  font-weight: 700;
+}
+.tagline {
+  font-style: italic;
+}
+
+.photo {
+  width: 100%;
+  height: auto;
+  border-radius: 10px;
+}
+
+.card,
+.project {
+  border: 2px solid #000;
+  border-radius: 10px;
+  padding: 12px;
+}
+
+.projects {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 12px;
+}
+
+.section {
+  margin-top: 20px;
+}
+
+/* focus zichtbaar */
+a:focus-visible {
+  outline: 3px solid #000;
+  outline-offset: 3px;
+}
+
+/* mobiel */
+@media (max-width: 768px) {
+  .hero {
+    grid-template-columns: 1fr;
+  }
+  .projects {
+    grid-template-columns: 1fr;
+  }
+}
+
+/* print */
+@media print {
+  * {
+    color: #000 !important;
+    background: transparent !important;
+  }
+  .card,
+  .project {
+    border-color: #000 !important;
+  }
+  .skip-link {
+    display: none !important;
+  }
+}
