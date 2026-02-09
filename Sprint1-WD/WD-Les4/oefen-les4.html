@@ -1,0 +1,84 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <style>
+      * {
+        font-family: Arial, Helvetica, sans-serif;
+      }
+
+      .container {
+        border: 5px solid black;
+        padding: 20px;
+        display: flex;
+        gap: 20px;
+        flex-wrap: wrap;
+        justify-content: space-around;
+      }
+
+      @media (min-width: 768px) {
+        .item-2 {
+          display: none;
+        }
+      }
+
+      @media print {
+        .item {
+          background: #ccc;
+          color: #000;
+          border-color: #000;
+        }
+      }
+      /* Voor touch devices */
+      @media (pointer: coarse) {
+        .item {
+          padding: 20px;
+          font-size: 1.2rem;
+        }
+      }
+
+      /* mouse or trackpad normal size */
+      @media (pointer: fine) {
+        .item {
+          padding: 10px;
+          font-size: 1rem;
+        }
+      }
+
+      /* switch to dark mode */
+      @media (prefers-color-scheme: dark) {
+        body {
+          background: #121212;
+          color: #ffffff;
+        }
+        .item {
+          background: #333;
+          border-color: #eee;
+        }
+      }
+
+      .item {
+        height: 150px;
+        flex: 1 1 150px;
+        max-width: 220px;
+        background: #fb7185;
+        font-weight: 700;
+        color: white;
+        text-align: center;
+
+        border: 10px solid blue;
+        border-radius: 10px;
+      }
+    </style>
+  </head>
+  <body>
+    <h1>Responsive Design Opdracht 1</h1>
+    <div class="container">
+      <div class="item item-1">Item-1</div>
+      <div class="item item-2">Item-2</div>
+      <div class="item item-3">Item-3</div>
+    </div>
+  </body>
+</html>
