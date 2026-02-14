@@ -3,71 +3,305 @@
   <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <title>Naweed Noori - Profiel</title>
+    <title>Naweed Noori - CV</title>
     <link rel="stylesheet" href="stylesheet-cv.css" />
   </head>
+
   <body>
+    <!-- Toegankelijkheid: skiplink -->
     <a class="skip-link" href="#main">Ga naar de hoofdinhoud</a>
 
-    <main id="main" class="page">
-      <header class="hero">
-        <div class="intro">
-          <h1>Naweed Noori</h1>
-          <p class="role">HBO-ICT student Windesheim — Web Development & AI</p>
-          <p class="tagline">
-            I build clear and reliable web applications and I enjoy turning
-            ideas into working products.
-          </p>
+    <main id="main" class="page" tabindex="-1">
+      <div class="cv">
+        <!-- ===== SIDEBAR (zoals je PDF) ===== -->
+        <aside class="sidebar" aria-label="Zijbalk met personalia">
+          <div class="sidebar-top">
+            <!-- Foto: zet naweed-foto.jpg in dezelfde map -->
+            <img
+              class="sidebar-photo"
+              src="naweed-foto.jpg"
+              alt="Profielfoto van Naweed Noori"
+              width="220"
+              height="220"
+            />
+            <p class="sidebar-title">Curriculum vitae</p>
+          </div>
 
-          <h2>Over mij</h2>
-          <p>
-            Schrijf hier 4–5 regels over jezelf. Bijvoorbeeld: wat je studeert,
-            wat je leuk vindt, en wat voor stage je zoekt.
-          </p>
-        </div>
+          <section class="side-block" aria-labelledby="personal-title">
+            <h2 class="side-heading" id="personal-title">Personalia</h2>
 
-        <aside class="side">
-          <img
-            class="photo"
-            src="photo.jpg"
-            alt="Profielfoto van Naweed Noori"
-          />
-          <section class="card">
-            <h2>Skills</h2>
-            <ul>
-              <li>HTML</li>
-              <li>CSS</li>
-              <li>Responsive design</li>
-              <li>Accessibility basis</li>
-              <li>Git/GitHub</li>
+            <ul class="side-list">
+              <li><strong>Naam:</strong> Naweed Noori</li>
+              <li>
+                <strong>Email:</strong>
+                <a href="mailto:naweednoori1989@gmail.com"
+                  >naweednoori1989@gmail.com</a
+                >
+              </li>
+              <li>
+                <strong>Telefoon:</strong>
+                <a href="tel:+31684958340">0684958340</a>
+              </li>
+              <li><strong>Adres:</strong> Escudo 14, 8253 EV Dronten</li>
+              <li><strong>Geboortedatum:</strong> 12 september 1989</li>
+            </ul>
+          </section>
+
+          <section class="side-block" aria-labelledby="skills-title">
+            <h2 class="side-heading" id="skills-title">Vaardigheden</h2>
+            <ul class="side-list">
+              <li>Microsoft Word</li>
+              <li>Microsoft Excel</li>
+              <li>Microsoft Outlook</li>
+              <li>Microsoft PowerPoint</li>
+              <li>Adobe Acrobat</li>
+            </ul>
+          </section>
+
+          <section class="side-block" aria-labelledby="languages-title">
+            <h2 class="side-heading" id="languages-title">Talen</h2>
+            <ul class="side-list">
+              <li>Nederlands</li>
+              <li>Engels</li>
+              <li>Dari</li>
+              <li>Pashto</li>
+              <li>Urdo/Hindi</li>
+              <li>Farsi</li>
+            </ul>
+          </section>
+
+          <section class="side-block" aria-labelledby="traits-title">
+            <h2 class="side-heading" id="traits-title">Eigenschappen</h2>
+            <ul class="side-list">
+              <li>Ambitieus</li>
+              <li>Verantwoordelijk</li>
+              <li>Teamspeler / zelfstandig</li>
+              <li>Flexibel</li>
+              <li>Analytisch</li>
+            </ul>
+          </section>
+
+          <section class="side-block" aria-labelledby="hobby-title">
+            <h2 class="side-heading" id="hobby-title">Hobby’s & interesses</h2>
+            <ul class="side-list">
+              <li>Lezen</li>
+              <li>Zwemmen</li>
+              <li>Reizen</li>
             </ul>
           </section>
         </aside>
-      </header>
 
-      <section class="section">
-        <h2>Projecten</h2>
-        <div class="projects">
-          <article class="project">
-            <h3>Project 1</h3>
-            <p>1–2 regels: wat je hebt gemaakt + tools.</p>
-          </article>
-          <article class="project">
-            <h3>Project 2</h3>
-            <p>1–2 regels: wat je hebt gemaakt + tools.</p>
-          </article>
-        </div>
-      </section>
+        <!-- ===== CONTENT (rechterkant zoals je PDF) ===== -->
+        <section class="content" aria-label="Hoofdinhoud CV">
+          <header class="content-top">
+            <h1 class="name">Naweed Noori</h1>
+          </header>
 
-      <footer class="section">
-        <h2>Contact</h2>
-        <p>
-          Email: <a href="mailto:naweed@example.com">naweed@example.com</a
-          ><br />
-          GitHub:
-          <a href="https://github.com/Naweed2023">github.com/Naweed2023</a>
-        </p>
-      </footer>
+          <section class="content-block" aria-labelledby="profile-title">
+            <div class="content-head">
+              <h2 id="profile-title">Profiel</h2>
+              <div class="line" aria-hidden="true"></div>
+            </div>
+
+            <p>
+              Mijn structurele manier van werken, gekoppeld aan een strakke
+              werkplanning, een goed humeur en ondernemende persoonlijkheid
+              maakt mij een gewaardeerde collega. Ik ben iemand die
+              resultaatgericht werkt en denkt in pragmatische oplossingen.
+            </p>
+          </section>
+
+          <section class="content-block" aria-labelledby="work-title">
+            <div class="content-head">
+              <h2 id="work-title">Werkervaring</h2>
+              <div class="line" aria-hidden="true"></div>
+            </div>
+
+            <!-- Simpele “tijdlijn”: links datum, rechts inhoud -->
+            <div class="timeline">
+              <article class="item">
+                <p class="when">jun 2023 – dec 2023</p>
+                <div class="what">
+                  <h3 class="job">Inpakmedewerker</h3>
+                  <p class="place">Timing, Wehkamp</p>
+                  <p class="desc">
+                    Als medewerker inpak was ik verantwoordelijk voor het
+                    inpakken van bestellingen.
+                  </p>
+                </div>
+              </article>
+
+              <article class="item">
+                <p class="when">feb 2021 – dec 2021</p>
+                <div class="what">
+                  <h3 class="job">Administratief medewerker</h3>
+                  <p class="place">ABN Amro Arbo service, Amsterdam</p>
+                  <p class="desc">
+                    Als medewerker administratie hield ik me dagelijks bezig met
+                    het voorbereiden van dossiers, opvragen van documenten en
+                    het raadplegen van dossiers.
+                  </p>
+                </div>
+              </article>
+
+              <article class="item">
+                <p class="when">jan 2019 – okt 2020</p>
+                <div class="what">
+                  <h3 class="job">Administratie & financiën medewerker</h3>
+                  <p class="place">Ambassade Afghanistan, Den Haag</p>
+                  <p class="desc">
+                    Hier was ik als senior verantwoordelijk voor het beheer van
+                    alle administratie & financiën van de ambassade. Ik stond in
+                    direct contact met de ambassadeur, het ministerie van
+                    buitenlandse zaken in Nederland en Afghanistan.
+                  </p>
+                </div>
+              </article>
+
+              <article class="item">
+                <p class="when">jan 2018 – jan 2019</p>
+                <div class="what">
+                  <h3 class="job">Consulair medewerker</h3>
+                  <p class="place">Ambassade Afghanistan, Den Haag</p>
+                  <p class="desc">
+                    Bij de Afghaanse ambassade heb ik eerst een tijd gewerkt bij
+                    de consulaire afdeling van de ambassade, daarna bij de
+                    afdeling administratie & financiën. Bij de consulaire
+                    afdeling hield ik me bezig met o.a. reisdocumenten,
+                    nooddocumenten, burgerlijke stand, verklaringen,
+                    rijbewijzen, laissez-passer en informatie voor bedrijven.
+                  </p>
+                </div>
+              </article>
+
+              <article class="item">
+                <p class="when">2009 – 2012</p>
+                <div class="what">
+                  <h3 class="job">Eigenaar</h3>
+                  <p class="place">
+                    Naweed Hanif Brothers, Oil Company Iran/Afghanistan
+                  </p>
+                  <p class="desc">
+                    Als eigenaar was ik verantwoordelijk voor alle taken binnen
+                    het bedrijf: het inkopen en verkopen van olie, marketing en
+                    financiën.
+                  </p>
+                </div>
+              </article>
+
+              <article class="item">
+                <p class="when">2009 – 2012</p>
+                <div class="what">
+                  <h3 class="job">Relatie officier</h3>
+                  <p class="place">
+                    Dunia Finance, Dubai, Verenigde Arabische Emiraten
+                  </p>
+                  <p class="desc">
+                    Als relatie officier was ik verantwoordelijk voor
+                    communicatie met de media en partners van het bedrijf.
+                    Daarnaast gaf ik financieel advies, zoals advies over
+                    leningen en het starten van een eigen bedrijf.
+                  </p>
+                </div>
+              </article>
+            </div>
+          </section>
+
+          <section class="content-block" aria-labelledby="edu-title">
+            <div class="content-head">
+              <h2 id="edu-title">Opleidingen</h2>
+              <div class="line" aria-hidden="true"></div>
+            </div>
+
+            <div class="timeline">
+              <article class="item">
+                <p class="when">sept 2023 – heden</p>
+                <div class="what">
+                  <h3 class="job">HBO-ICT (bachelor)</h3>
+                  <p class="place">Windesheim, Zwolle</p>
+                </div>
+              </article>
+
+              <article class="item">
+                <p class="when">jul 2009 – jul 2010</p>
+                <div class="what">
+                  <h3 class="job">Business Administration (completed)</h3>
+                  <p class="place">
+                    Central State University of New York, Abu Dhabi
+                  </p>
+                </div>
+              </article>
+
+              <article class="item">
+                <p class="when">jun 2009 – jun 2010</p>
+                <div class="what">
+                  <h3 class="job">Financiën & Marketing (completed)</h3>
+                  <p class="place">Emirates College of Technology, Abu Dhabi</p>
+                </div>
+              </article>
+            </div>
+          </section>
+
+          <section class="content-block" aria-labelledby="courses-title">
+            <div class="content-head">
+              <h2 id="courses-title">Cursussen</h2>
+              <div class="line" aria-hidden="true"></div>
+            </div>
+
+            <div class="timeline">
+              <article class="item">
+                <p class="when">2012</p>
+                <div class="what">
+                  <h3 class="job">Journalistiek (afgerond)</h3>
+                </div>
+              </article>
+
+              <article class="item">
+                <p class="when">2009</p>
+                <div class="what">
+                  <h3 class="job">
+                    Occupational Safety & Health Training Course (afgerond)
+                  </h3>
+                </div>
+              </article>
+
+              <article class="item">
+                <p class="when">2009</p>
+                <div class="what">
+                  <h3 class="job">
+                    Outreach Safety Training Course (afgerond)
+                  </h3>
+                </div>
+              </article>
+
+              <article class="item">
+                <p class="when">2007</p>
+                <div class="what">
+                  <h3 class="job">General Banking Course (afgerond)</h3>
+                </div>
+              </article>
+            </div>
+          </section>
+
+          <!-- Contact nog een keer (FR2 is dan extra duidelijk) -->
+          <footer class="content-block" aria-labelledby="contact-title">
+            <div class="content-head">
+              <h2 id="contact-title">Contact</h2>
+              <div class="line" aria-hidden="true"></div>
+            </div>
+
+            <p>
+              Email:
+              <a href="mailto:naweednoori1989@gmail.com"
+                >naweednoori1989@gmail.com</a
+              ><br />
+              Telefoon:
+              <a href="tel:+31684958340">0684958340</a><br />
+              Plaats: Dronten
+            </p>
+          </footer>
+        </section>
+      </div>
     </main>
   </body>
 </html>

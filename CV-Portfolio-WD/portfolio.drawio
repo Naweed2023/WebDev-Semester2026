@@ -1,0 +1,185 @@
+<mxfile host="Electron" modified="2026-02-11T15:19:38.031Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) draw.io/22.0.1 Chrome/114.0.5735.289 Electron/25.8.4 Safari/537.36" etag="-9YbfXkuuYJu_SEwJEs_" version="22.0.1" type="device">
+  <diagram name="Page-1" id="H3A_iz7bVk7quGeISqHr">
+    <mxGraphModel dx="1372" dy="615" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="rCIPemW6hvijkv9Wo6Ko-3" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.471;entryY=-0.019;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="rCIPemW6hvijkv9Wo6Ko-1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="233.03999999999996" y="327.72" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="rCIPemW6hvijkv9Wo6Ko-4" value="&lt;strong data-end=&quot;1065&quot; data-start=&quot;1035&quot;&gt;&lt;code data-end=&quot;1063&quot; data-start=&quot;1037&quot;&gt;Bezoekt de profielpagina&lt;/code&gt;&lt;/strong&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="rCIPemW6hvijkv9Wo6Ko-3">
+          <mxGeometry x="-0.0764" y="-2" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <object placeholders="1" c4Name="Potentiele bedrijf" c4Type="Person" c4Description="Bedrijf die portfolio webpage bezoek" label="&lt;font style=&quot;font-size: 16px&quot;&gt;&lt;b&gt;%c4Name%&lt;/b&gt;&lt;/font&gt;&lt;div&gt;[%c4Type%]&lt;/div&gt;&lt;br&gt;&lt;div&gt;&lt;font style=&quot;font-size: 11px&quot;&gt;&lt;font color=&quot;#cccccc&quot;&gt;%c4Description%&lt;/font&gt;&lt;/div&gt;" id="rCIPemW6hvijkv9Wo6Ko-1">
+          <mxCell style="html=1;fontSize=11;dashed=0;whiteSpace=wrap;fillColor=#083F75;strokeColor=#06315C;fontColor=#ffffff;shape=mxgraph.c4.person2;align=center;metaEdit=1;points=[[0.5,0,0],[1,0.5,0],[1,0.75,0],[0.75,1,0],[0.5,1,0],[0.25,1,0],[0,0.75,0],[0,0.5,0]];resizable=0;" vertex="1" parent="1">
+            <mxGeometry x="130" y="50" width="200" height="180" as="geometry" />
+          </mxCell>
+        </object>
+        <object placeholders="1" c4Name="Portfolio-CV" c4Type="SystemScopeBoundary" c4Application="Software System" label="&lt;font style=&quot;font-size: 16px&quot;&gt;&lt;b&gt;&lt;div style=&quot;text-align: left&quot;&gt;%c4Name%&lt;/div&gt;&lt;/b&gt;&lt;/font&gt;&lt;div style=&quot;text-align: left&quot;&gt;[%c4Application%]&lt;/div&gt;" id="rCIPemW6hvijkv9Wo6Ko-6">
+          <mxCell style="rounded=1;fontSize=11;whiteSpace=wrap;html=1;dashed=1;arcSize=20;fillColor=none;strokeColor=#666666;fontColor=#333333;labelBackgroundColor=none;align=left;verticalAlign=bottom;labelBorderColor=none;spacingTop=0;spacing=10;dashPattern=8 4;metaEdit=1;rotatable=0;perimeter=rectanglePerimeter;noLabel=0;labelPadding=0;allowArrows=0;connectable=0;expand=0;recursiveResize=0;editable=1;pointerEvents=0;absoluteArcSize=1;points=[[0.25,0,0],[0.5,0,0],[0.75,0,0],[1,0.25,0],[1,0.5,0],[1,0.75,0],[0.75,1,0],[0.5,1,0],[0.25,1,0],[0,0.75,0],[0,0.5,0],[0,0.25,0]];" vertex="1" parent="1">
+            <mxGeometry x="110" y="300" width="270" height="230" as="geometry" />
+          </mxCell>
+        </object>
+        <object placeholders="1" c4Type="Portfolio-CV" c4Container="Container" c4Technology="HTML en CSS" c4Description="Statische profielpagina (online CV) die profielinformatie toont en de layout verzorgt voor responsiveness, toegankelijkheid en print." label="&lt;font style=&quot;font-size: 16px&quot;&gt;&lt;b&gt;%c4Type%&lt;/b&gt;&lt;/font&gt;&lt;div&gt;[%c4Container%:&amp;nbsp;%c4Technology%]&lt;/div&gt;&lt;br&gt;&lt;div&gt;&lt;font style=&quot;font-size: 11px&quot;&gt;&lt;font color=&quot;#E6E6E6&quot;&gt;%c4Description%&lt;/font&gt;&lt;/div&gt;" id="rCIPemW6hvijkv9Wo6Ko-8">
+          <mxCell style="shape=mxgraph.c4.webBrowserContainer2;whiteSpace=wrap;html=1;boundedLbl=1;rounded=0;labelBackgroundColor=none;strokeColor=#118ACD;fillColor=#23A2D9;strokeColor=#118ACD;strokeColor2=#0E7DAD;fontSize=12;fontColor=#ffffff;align=center;metaEdit=1;points=[[0.5,0,0],[1,0.25,0],[1,0.5,0],[1,0.75,0],[0.5,1,0],[0,0.75,0],[0,0.5,0],[0,0.25,0]];resizable=0;" vertex="1" parent="1">
+            <mxGeometry x="120" y="310" width="240" height="160" as="geometry" />
+          </mxCell>
+        </object>
+        <object placeholders="1" c4Name="Webpagina " c4Type="Component" c4Technology="HTML" c4Description="Toont de benodigde visuele elementen zoals cv, over mij, contact gegevens " label="&lt;font style=&quot;font-size: 16px&quot;&gt;&lt;b&gt;%c4Name%&lt;/b&gt;&lt;/font&gt;&lt;div&gt;[%c4Type%: %c4Technology%]&lt;/div&gt;&lt;br&gt;&lt;div&gt;&lt;font style=&quot;font-size: 11px&quot;&gt;%c4Description%&lt;/font&gt;&lt;/div&gt;" id="rCIPemW6hvijkv9Wo6Ko-9">
+          <mxCell style="rounded=1;whiteSpace=wrap;html=1;labelBackgroundColor=none;fillColor=#63BEF2;fontColor=#ffffff;align=center;arcSize=6;strokeColor=#2086C9;metaEdit=1;resizable=0;points=[[0.25,0,0],[0.5,0,0],[0.75,0,0],[1,0.25,0],[1,0.5,0],[1,0.75,0],[0.75,1,0],[0.5,1,0],[0.25,1,0],[0,0.75,0],[0,0.5,0],[0,0.25,0]];" vertex="1" parent="1">
+            <mxGeometry x="480" y="140" width="240" height="120" as="geometry" />
+          </mxCell>
+        </object>
+        <object placeholders="1" c4Name="Stylesheet" c4Type="Component" c4Technology="CSS" c4Description="zorgt voor de opmaak van de webpagina (stylesheet.css)" label="&lt;font style=&quot;font-size: 16px&quot;&gt;&lt;b&gt;%c4Name%&lt;/b&gt;&lt;/font&gt;&lt;div&gt;[%c4Type%: %c4Technology%]&lt;/div&gt;&lt;br&gt;&lt;div&gt;&lt;font style=&quot;font-size: 11px&quot;&gt;%c4Description%&lt;/font&gt;&lt;/div&gt;" id="rCIPemW6hvijkv9Wo6Ko-10">
+          <mxCell style="rounded=1;whiteSpace=wrap;html=1;labelBackgroundColor=none;fillColor=#63BEF2;fontColor=#ffffff;align=center;arcSize=6;strokeColor=#2086C9;metaEdit=1;resizable=0;points=[[0.25,0,0],[0.5,0,0],[0.75,0,0],[1,0.25,0],[1,0.5,0],[1,0.75,0],[0.75,1,0],[0.5,1,0],[0.25,1,0],[0,0.75,0],[0,0.5,0],[0,0.25,0]];" vertex="1" parent="1">
+            <mxGeometry x="480" y="340" width="240" height="120" as="geometry" />
+          </mxCell>
+        </object>
+        <mxCell id="rCIPemW6hvijkv9Wo6Ko-11" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="rCIPemW6hvijkv9Wo6Ko-9" target="rCIPemW6hvijkv9Wo6Ko-10">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="rCIPemW6hvijkv9Wo6Ko-12" value="Maakt gebruikt van&amp;nbsp;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="rCIPemW6hvijkv9Wo6Ko-11">
+          <mxGeometry x="-0.0086" y="-1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <object placeholders="1" c4Name="Portfolio-CV" c4Type="ContainerScopeBoundary" c4Application="Container" label="&lt;font style=&quot;font-size: 16px&quot;&gt;&lt;b&gt;&lt;div style=&quot;text-align: left&quot;&gt;%c4Name%&lt;/div&gt;&lt;/b&gt;&lt;/font&gt;&lt;div style=&quot;text-align: left&quot;&gt;[%c4Application%]&lt;/div&gt;" id="rCIPemW6hvijkv9Wo6Ko-13">
+          <mxCell style="rounded=1;fontSize=11;whiteSpace=wrap;html=1;dashed=1;arcSize=20;fillColor=none;strokeColor=#666666;fontColor=#333333;labelBackgroundColor=none;align=left;verticalAlign=bottom;labelBorderColor=none;spacingTop=0;spacing=10;dashPattern=8 4;metaEdit=1;rotatable=0;perimeter=rectanglePerimeter;noLabel=0;labelPadding=0;allowArrows=0;connectable=0;expand=0;recursiveResize=0;editable=1;pointerEvents=0;absoluteArcSize=1;points=[[0.25,0,0],[0.5,0,0],[0.75,0,0],[1,0.25,0],[1,0.5,0],[1,0.75,0],[0.75,1,0],[0.5,1,0],[0.25,1,0],[0,0.75,0],[0,0.5,0],[0,0.25,0]];" vertex="1" parent="1">
+            <mxGeometry x="455" y="110" width="295" height="400" as="geometry" />
+          </mxCell>
+        </object>
+        <mxCell id="rCIPemW6hvijkv9Wo6Ko-15" value="" style="strokeWidth=1;shadow=0;dashed=0;align=center;html=1;shape=mxgraph.mockup.containers.browserWindow;rSize=0;strokeColor=#666666;strokeColor2=#008cff;strokeColor3=#c4c4c4;mainText=,;recursiveResize=0;" vertex="1" parent="1">
+          <mxGeometry x="100" y="750" width="700" height="970" as="geometry" />
+        </mxCell>
+        <mxCell id="rCIPemW6hvijkv9Wo6Ko-16" value="Portfolio-CV" style="strokeWidth=1;shadow=0;dashed=0;align=center;html=1;shape=mxgraph.mockup.containers.anchor;fontSize=17;fontColor=#666666;align=left;" vertex="1" parent="rCIPemW6hvijkv9Wo6Ko-15">
+          <mxGeometry x="60" y="12" width="130" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="rCIPemW6hvijkv9Wo6Ko-17" value="http://127.0.0.1:5500/Sprint1-WD/WD-Les5/CV-Portfolio.html#main" style="strokeWidth=1;shadow=0;dashed=0;align=center;html=1;shape=mxgraph.mockup.containers.anchor;rSize=0;fontSize=17;fontColor=#666666;align=left;" vertex="1" parent="rCIPemW6hvijkv9Wo6Ko-15">
+          <mxGeometry x="130" y="60" width="250" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="rCIPemW6hvijkv9Wo6Ko-18" value="&lt;font style=&quot;font-size: 24px;&quot;&gt;HEADER&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;glass=0;shadow=0;fillColor=#647687;fontColor=#ffffff;strokeColor=#314354;fillStyle=auto;" vertex="1" parent="rCIPemW6hvijkv9Wo6Ko-15">
+          <mxGeometry y="110" width="680" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="rCIPemW6hvijkv9Wo6Ko-19" value="" style="rounded=0;whiteSpace=wrap;html=1;shadow=0;glass=0;sketch=0;fillStyle=auto;fontSize=24;" vertex="1" parent="rCIPemW6hvijkv9Wo6Ko-15">
+          <mxGeometry x="20" y="180" width="650" height="390" as="geometry" />
+        </mxCell>
+        <mxCell id="rCIPemW6hvijkv9Wo6Ko-20" value="" style="verticalLabelPosition=bottom;shadow=0;dashed=0;align=center;html=1;verticalAlign=top;strokeWidth=1;shape=mxgraph.mockup.graphics.simpleIcon;strokeColor=#999999;rounded=0;glass=0;sketch=0;fillStyle=auto;fontSize=24;" vertex="1" parent="rCIPemW6hvijkv9Wo6Ko-15">
+          <mxGeometry x="470" y="187" width="177" height="173" as="geometry" />
+        </mxCell>
+        <mxCell id="rCIPemW6hvijkv9Wo6Ko-26" value="IMG" style="text;html=1;strokeColor=#314354;fillColor=#647687;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=1;shadow=0;glass=0;sketch=0;fillStyle=auto;fontSize=24;fontColor=#ffffff;" vertex="1" parent="rCIPemW6hvijkv9Wo6Ko-15">
+          <mxGeometry x="528.5" y="258.5" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="rCIPemW6hvijkv9Wo6Ko-35" value="" style="rounded=0;whiteSpace=wrap;html=1;shadow=0;glass=0;sketch=0;fillStyle=auto;fontSize=24;" vertex="1" parent="rCIPemW6hvijkv9Wo6Ko-15">
+          <mxGeometry x="20" y="581" width="650" height="269" as="geometry" />
+        </mxCell>
+        <mxCell id="rCIPemW6hvijkv9Wo6Ko-43" value="" style="verticalLabelPosition=bottom;shadow=0;dashed=0;align=center;html=1;verticalAlign=top;strokeWidth=1;shape=mxgraph.mockup.navigation.scrollBar;strokeColor=#999999;barPos=98.888;fillColor2=#99ddff;strokeColor2=none;direction=north;rounded=1;glass=0;sketch=0;fillStyle=auto;fontSize=24;" vertex="1" parent="rCIPemW6hvijkv9Wo6Ko-15">
+          <mxGeometry x="680" y="110" width="20" height="850" as="geometry" />
+        </mxCell>
+        <mxCell id="rCIPemW6hvijkv9Wo6Ko-47" value="&lt;b&gt;Over mij:&lt;/b&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="rCIPemW6hvijkv9Wo6Ko-15">
+          <mxGeometry x="30" y="359" width="100" height="81" as="geometry" />
+        </mxCell>
+        <mxCell id="rCIPemW6hvijkv9Wo6Ko-50" value="" style="rounded=0;whiteSpace=wrap;html=1;shadow=0;glass=0;sketch=0;fillStyle=auto;fontSize=24;" vertex="1" parent="rCIPemW6hvijkv9Wo6Ko-15">
+          <mxGeometry x="18" y="863" width="652" height="67" as="geometry" />
+        </mxCell>
+        <mxCell id="rCIPemW6hvijkv9Wo6Ko-39" value="&lt;font style=&quot;&quot;&gt;&lt;font style=&quot;font-size: 18px;&quot;&gt;Contact gegevens:&lt;br&gt;&lt;/font&gt;Email:&lt;br&gt;Telefoon:&lt;br&gt;Adres:&lt;br&gt;&lt;/font&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=bottom;whiteSpace=wrap;rounded=0;shadow=0;glass=0;sketch=0;fillStyle=auto;fontSize=10;fontStyle=0" vertex="1" parent="rCIPemW6hvijkv9Wo6Ko-15">
+          <mxGeometry x="20" y="890" width="220" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="rCIPemW6hvijkv9Wo6Ko-52" value="&lt;font style=&quot;&quot;&gt;&lt;font style=&quot;&quot;&gt;&lt;font style=&quot;font-size: 18px;&quot;&gt;Opleiding:&lt;/font&gt;&lt;br&gt;&lt;span style=&quot;font-size: 12px;&quot;&gt;Schoolnaam&lt;/span&gt;&lt;br&gt;&lt;span style=&quot;font-size: 12px;&quot;&gt;StartDatum&lt;/span&gt;&lt;br&gt;&lt;span style=&quot;font-size: 12px;&quot;&gt;EindDatum&lt;/span&gt;&lt;br&gt;&lt;span style=&quot;font-size: 12px;&quot;&gt;Studienaam&lt;/span&gt;&lt;br&gt;&lt;span style=&quot;font-size: 12px;&quot;&gt;Studiegraad&lt;/span&gt;&lt;br&gt;&lt;span style=&quot;font-size: 12px;&quot;&gt;Locatie&lt;/span&gt;&lt;br&gt;&lt;span style=&quot;font-size: 12px;&quot;&gt;Cijfer&lt;/span&gt;&lt;/font&gt;&lt;br&gt;&lt;/font&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="rCIPemW6hvijkv9Wo6Ko-15">
+          <mxGeometry x="-10" y="570" width="161" height="166" as="geometry" />
+        </mxCell>
+        <mxCell id="rCIPemW6hvijkv9Wo6Ko-49" value="&lt;div style=&quot;text-align: justify;&quot;&gt;&lt;span style=&quot;font-size: 11px; background-color: initial;&quot;&gt;Ik ben Naweed Noori, 36 jaar, vader van twee kinderen, en momenteel derdejaars HBO-ICT student aan Windesheim met een focus op Web Development en AI. Ik vind het belangrijk om dingen helder en betrouwbaar te bouwen: een website of applicatie moet niet alleen werken, maar ook logisch zijn opgebouwd en goed te gebruiken voor iedereen.&lt;/span&gt;&lt;/div&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="rCIPemW6hvijkv9Wo6Ko-15">
+          <mxGeometry x="30" y="390" width="330" height="180" as="geometry" />
+        </mxCell>
+        <mxCell id="rCIPemW6hvijkv9Wo6Ko-44" value="&lt;b&gt;Naweed Noori&lt;br&gt;HBO-ICT Student Windesheim&lt;br&gt;Leeftijd:36&lt;br&gt;&lt;/b&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="rCIPemW6hvijkv9Wo6Ko-15">
+          <mxGeometry x="20" y="187" width="160" height="92" as="geometry" />
+        </mxCell>
+        <mxCell id="rCIPemW6hvijkv9Wo6Ko-54" value="&lt;font style=&quot;&quot;&gt;&lt;span style=&quot;font-size: 18px;&quot;&gt;Vaardigheden:&lt;/span&gt;&lt;br&gt;&lt;font style=&quot;font-size: 12px;&quot;&gt;Omschrijving&lt;/font&gt;&lt;/font&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="rCIPemW6hvijkv9Wo6Ko-15">
+          <mxGeometry x="50" y="800" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="rCIPemW6hvijkv9Wo6Ko-53" value="&lt;font style=&quot;font-size: 18px;&quot;&gt;Werkervaring:&lt;/font&gt;&lt;br&gt;Bedrijfsnaam&lt;br&gt;Functie&lt;br&gt;Startdatum&lt;br&gt;Einddatum&lt;br&gt;Contactpersoon&lt;br&gt;Locatie" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="659" y="1375" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="rCIPemW6hvijkv9Wo6Ko-58" value="" style="html=1;verticalLabelPosition=bottom;align=center;labelBackgroundColor=#ffffff;verticalAlign=top;strokeWidth=2;strokeColor=#0080F0;shadow=0;dashed=0;shape=mxgraph.ios7.icons.smartphone;" vertex="1" parent="1">
+          <mxGeometry x="110" y="1750" width="570" height="960" as="geometry" />
+        </mxCell>
+        <mxCell id="rCIPemW6hvijkv9Wo6Ko-59" value="" style="strokeWidth=1;shadow=0;dashed=0;align=center;html=1;shape=mxgraph.mockup.containers.browserWindow;rSize=0;strokeColor=#666666;strokeColor2=#008cff;strokeColor3=#c4c4c4;mainText=,;recursiveResize=0;" vertex="1" parent="1">
+          <mxGeometry x="130" y="1840" width="520" height="710" as="geometry" />
+        </mxCell>
+        <mxCell id="rCIPemW6hvijkv9Wo6Ko-60" value="Portfolio-CV" style="strokeWidth=1;shadow=0;dashed=0;align=center;html=1;shape=mxgraph.mockup.containers.anchor;fontSize=17;fontColor=#666666;align=left;" vertex="1" parent="rCIPemW6hvijkv9Wo6Ko-59">
+          <mxGeometry x="60" y="12" width="130" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="rCIPemW6hvijkv9Wo6Ko-61" value="&lt;font style=&quot;font-size: 10px;&quot;&gt;http://127.0.0.1:5500/Sprint1-WD/WD-Les5/CV-Portfolio.html#main&lt;/font&gt;" style="strokeWidth=1;shadow=0;dashed=0;align=center;html=1;shape=mxgraph.mockup.containers.anchor;rSize=0;fontSize=17;fontColor=#666666;align=left;" vertex="1" parent="rCIPemW6hvijkv9Wo6Ko-59">
+          <mxGeometry x="130" y="60" width="260" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="rCIPemW6hvijkv9Wo6Ko-62" value="&lt;font style=&quot;font-size: 24px;&quot;&gt;HEADER&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;glass=0;shadow=0;fillColor=#647687;fontColor=#ffffff;strokeColor=#314354;fillStyle=auto;" vertex="1" parent="rCIPemW6hvijkv9Wo6Ko-59">
+          <mxGeometry y="120" width="480" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="rCIPemW6hvijkv9Wo6Ko-63" value="" style="rounded=0;whiteSpace=wrap;html=1;shadow=0;glass=0;sketch=0;fillStyle=auto;fontSize=24;" vertex="1" parent="rCIPemW6hvijkv9Wo6Ko-59">
+          <mxGeometry x="20" y="170" width="450" height="150" as="geometry" />
+        </mxCell>
+        <mxCell id="rCIPemW6hvijkv9Wo6Ko-64" value="" style="verticalLabelPosition=bottom;shadow=0;dashed=0;align=center;html=1;verticalAlign=top;strokeWidth=1;shape=mxgraph.mockup.graphics.simpleIcon;strokeColor=#999999;rounded=0;glass=0;sketch=0;fillStyle=auto;fontSize=24;" vertex="1" parent="rCIPemW6hvijkv9Wo6Ko-59">
+          <mxGeometry x="240" y="180" width="220" height="140" as="geometry" />
+        </mxCell>
+        <mxCell id="rCIPemW6hvijkv9Wo6Ko-70" value="IMG" style="text;html=1;strokeColor=#314354;fillColor=#647687;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=1;shadow=0;glass=0;sketch=0;fillStyle=auto;fontSize=24;fontColor=#ffffff;" vertex="1" parent="rCIPemW6hvijkv9Wo6Ko-59">
+          <mxGeometry x="320" y="235" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="rCIPemW6hvijkv9Wo6Ko-71" value="" style="rounded=0;whiteSpace=wrap;html=1;shadow=0;glass=0;sketch=0;fillStyle=auto;fontSize=24;" vertex="1" parent="rCIPemW6hvijkv9Wo6Ko-59">
+          <mxGeometry x="20" y="325" width="450" height="160" as="geometry" />
+        </mxCell>
+        <mxCell id="rCIPemW6hvijkv9Wo6Ko-79" value="" style="rounded=0;whiteSpace=wrap;html=1;shadow=0;glass=0;sketch=0;fillStyle=auto;fontSize=24;" vertex="1" parent="rCIPemW6hvijkv9Wo6Ko-59">
+          <mxGeometry x="20" y="490" width="450" height="140" as="geometry" />
+        </mxCell>
+        <mxCell id="rCIPemW6hvijkv9Wo6Ko-87" value="" style="verticalLabelPosition=bottom;shadow=0;dashed=0;align=center;html=1;verticalAlign=top;strokeWidth=1;shape=mxgraph.mockup.navigation.scrollBar;strokeColor=#999999;barPos=98.888;fillColor2=#99ddff;strokeColor2=none;direction=north;rounded=1;glass=0;sketch=0;fillStyle=auto;fontSize=24;" vertex="1" parent="rCIPemW6hvijkv9Wo6Ko-59">
+          <mxGeometry x="480" y="120" width="40" height="580" as="geometry" />
+        </mxCell>
+        <mxCell id="rCIPemW6hvijkv9Wo6Ko-97" value="&lt;font style=&quot;font-size: 18px;&quot;&gt;&lt;b&gt;Over mij :&lt;/b&gt;&lt;/font&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="rCIPemW6hvijkv9Wo6Ko-59">
+          <mxGeometry x="20" y="310" width="90" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="rCIPemW6hvijkv9Wo6Ko-98" value="&lt;font style=&quot;font-size: 18px;&quot;&gt;&lt;b&gt;&lt;font style=&quot;border-color: var(--border-color);&quot;&gt;Opleiding:&lt;/font&gt;&lt;br style=&quot;border-color: var(--border-color);&quot;&gt;Schoolnaam&lt;br style=&quot;border-color: var(--border-color);&quot;&gt;&lt;span style=&quot;border-color: var(--border-color);&quot;&gt;StartDatum&lt;/span&gt;&lt;br style=&quot;border-color: var(--border-color);&quot;&gt;&lt;span style=&quot;border-color: var(--border-color);&quot;&gt;EindDatum&lt;/span&gt;&lt;br style=&quot;border-color: var(--border-color);&quot;&gt;&lt;span style=&quot;border-color: var(--border-color);&quot;&gt;Studienaam&lt;/span&gt;&lt;br style=&quot;border-color: var(--border-color);&quot;&gt;&lt;span style=&quot;border-color: var(--border-color);&quot;&gt;Studiegraad&lt;/span&gt;&lt;/b&gt;&lt;br&gt;&lt;/font&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="rCIPemW6hvijkv9Wo6Ko-59">
+          <mxGeometry x="-30" y="480" width="230" height="150" as="geometry" />
+        </mxCell>
+        <mxCell id="rCIPemW6hvijkv9Wo6Ko-100" value="" style="rounded=0;whiteSpace=wrap;html=1;shadow=0;glass=0;sketch=0;fillStyle=auto;fontSize=24;" vertex="1" parent="rCIPemW6hvijkv9Wo6Ko-59">
+          <mxGeometry x="20" y="633" width="450" height="67" as="geometry" />
+        </mxCell>
+        <mxCell id="rCIPemW6hvijkv9Wo6Ko-101" value="&lt;font style=&quot;font-size: 16px;&quot;&gt;&lt;b&gt;&lt;font style=&quot;border-color: var(--border-color);&quot;&gt;Contact gegevens:&lt;br style=&quot;border-color: var(--border-color);&quot;&gt;&lt;/font&gt;Email:&lt;br style=&quot;border-color: var(--border-color);&quot;&gt;Telefoon:&lt;br style=&quot;border-color: var(--border-color);&quot;&gt;&lt;br&gt;&lt;/b&gt;&lt;/font&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="rCIPemW6hvijkv9Wo6Ko-59">
+          <mxGeometry x="30" y="651" width="450" height="49" as="geometry" />
+        </mxCell>
+        <mxCell id="rCIPemW6hvijkv9Wo6Ko-96" value="&lt;font style=&quot;font-size: 18px;&quot;&gt;&lt;b&gt;Ik ben Naweed Noori, 36 jaar, vader van twee kinderen, en momenteel derdejaars HBO-ICT student aan Windesheim met een focus op Web Development en AI. Ik vind het belangrijk om dingen helder en betrouwbaar te bouwen:&amp;nbsp;&lt;/b&gt;&lt;/font&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="rCIPemW6hvijkv9Wo6Ko-59">
+          <mxGeometry x="30" y="330" width="370" height="168" as="geometry" />
+        </mxCell>
+        <mxCell id="rCIPemW6hvijkv9Wo6Ko-99" value="&lt;font style=&quot;font-size: 18px;&quot;&gt;&lt;b&gt;&lt;font style=&quot;border-color: var(--border-color);&quot;&gt;Werkervaring:&lt;/font&gt;&lt;br style=&quot;border-color: var(--border-color);&quot;&gt;Bedrijfsnaam&lt;br style=&quot;border-color: var(--border-color);&quot;&gt;Functie&lt;br style=&quot;border-color: var(--border-color);&quot;&gt;Startdatum&lt;br style=&quot;border-color: var(--border-color);&quot;&gt;Einddatum&lt;br&gt;Locatie&lt;br&gt;&lt;/b&gt;&lt;/font&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="rCIPemW6hvijkv9Wo6Ko-59">
+          <mxGeometry x="295" y="490" width="175" height="130" as="geometry" />
+        </mxCell>
+        <mxCell id="rCIPemW6hvijkv9Wo6Ko-91" value="&lt;b style=&quot;border-color: var(--border-color);&quot;&gt;&lt;font style=&quot;font-size: 18px;&quot;&gt;Naweed Noori&lt;br style=&quot;border-color: var(--border-color);&quot;&gt;HBO-ICT Student Windesheim&lt;br style=&quot;border-color: var(--border-color);&quot;&gt;Leeftijd:36&lt;/font&gt;&lt;/b&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="162" y="2025" width="188" height="115" as="geometry" />
+        </mxCell>
+        <mxCell id="rCIPemW6hvijkv9Wo6Ko-92" value="" style="html=1;verticalLabelPosition=bottom;align=center;labelBackgroundColor=#ffffff;verticalAlign=top;strokeWidth=2;strokeColor=#0080F0;shadow=0;dashed=0;shape=mxgraph.ios7.icons.battery;" vertex="1" parent="1">
+          <mxGeometry x="611" y="1768" width="30" height="12" as="geometry" />
+        </mxCell>
+        <mxCell id="rCIPemW6hvijkv9Wo6Ko-93" value="75%" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="599" y="1784" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="rCIPemW6hvijkv9Wo6Ko-95" value="" style="html=1;verticalLabelPosition=bottom;align=center;labelBackgroundColor=#ffffff;verticalAlign=top;strokeWidth=2;strokeColor=#0080F0;shadow=0;dashed=0;shape=mxgraph.ios7.icons.microphone;" vertex="1" parent="1">
+          <mxGeometry x="134" y="1773" width="12" height="26" as="geometry" />
+        </mxCell>
+        <object placeholders="1" c4Name="Potentiele bedrijf" c4Type="Person" c4Description="Bedrijf die portfolio webpage bezoek" label="&lt;font style=&quot;font-size: 16px&quot;&gt;&lt;b&gt;%c4Name%&lt;/b&gt;&lt;/font&gt;&lt;div&gt;[%c4Type%]&lt;/div&gt;&lt;br&gt;&lt;div&gt;&lt;font style=&quot;font-size: 11px&quot;&gt;&lt;font color=&quot;#cccccc&quot;&gt;%c4Description%&lt;/font&gt;&lt;/div&gt;" id="rCIPemW6hvijkv9Wo6Ko-104">
+          <mxCell style="html=1;fontSize=11;dashed=0;whiteSpace=wrap;fillColor=#083F75;strokeColor=#06315C;fontColor=#ffffff;shape=mxgraph.c4.person2;align=center;metaEdit=1;points=[[0.5,0,0],[1,0.5,0],[1,0.75,0],[0.75,1,0],[0.5,1,0],[0.25,1,0],[0,0.75,0],[0,0.5,0]];resizable=0;" vertex="1" parent="1">
+            <mxGeometry x="868" y="75" width="200" height="180" as="geometry" />
+          </mxCell>
+        </object>
+        <object placeholders="1" c4Name="Portfolio-CV" c4Type="Software System" c4Description="Profielpagina met naam, leeftijd, opleiding, werkervaring, vaardigheden en contact" label="&lt;font style=&quot;font-size: 16px&quot;&gt;&lt;b&gt;%c4Name%&lt;/b&gt;&lt;/font&gt;&lt;div&gt;[%c4Type%]&lt;/div&gt;&lt;br&gt;&lt;div&gt;&lt;font style=&quot;font-size: 11px&quot;&gt;&lt;font color=&quot;#cccccc&quot;&gt;%c4Description%&lt;/font&gt;&lt;/div&gt;" id="rCIPemW6hvijkv9Wo6Ko-105">
+          <mxCell style="rounded=1;whiteSpace=wrap;html=1;labelBackgroundColor=none;fillColor=#1061B0;fontColor=#ffffff;align=center;arcSize=10;strokeColor=#0D5091;metaEdit=1;resizable=0;points=[[0.25,0,0],[0.5,0,0],[0.75,0,0],[1,0.25,0],[1,0.5,0],[1,0.75,0],[0.75,1,0],[0.5,1,0],[0.25,1,0],[0,0.75,0],[0,0.5,0],[0,0.25,0]];" vertex="1" parent="1">
+            <mxGeometry x="868" y="366" width="240" height="120" as="geometry" />
+          </mxCell>
+        </object>
+        <mxCell id="rCIPemW6hvijkv9Wo6Ko-107" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.418;entryY=0.042;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="rCIPemW6hvijkv9Wo6Ko-104" target="rCIPemW6hvijkv9Wo6Ko-105">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>

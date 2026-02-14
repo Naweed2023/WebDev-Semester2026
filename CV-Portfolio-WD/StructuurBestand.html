@@ -1,0 +1,143 @@
+<!doctype html>
+<html lang="nl">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Profiel - Joppe Kleinjan</title>
+    <link rel="stylesheet" href="OpmaakBestand.css" />
+  </head>
+
+  <body>
+    <!-- Skiplink: voor toetsenbordgebruikers direct naar inhoud -->
+    <a class="skip" href="#main">Ga naar de hoofdinhoud</a>
+
+    <header class="topbar">PROFIEL</header>
+
+    <main id="main" class="container" tabindex="-1">
+      <!-- Titel bovenaan -->
+      <header class="page-title">
+        <!-- Print: kleine foto naast titel (alleen zichtbaar bij print) -->
+        <img
+          class="print-photo"
+          src="joppe-foto.jpg"
+          alt="Profielfoto van Joppe Kleinjan"
+          width="120"
+          height="120"
+        />
+        <h1>Joppe Kleinjan</h1>
+      </header>
+
+      <!-- BOVEN: foto + profiel, en daaronder over mij -->
+      <section class="top-grid">
+        <!-- Foto -->
+        <section class="box photo-box">
+          <img
+            src="joppe-foto.jpg"
+            alt="Profielfoto van Joppe Kleinjan"
+            loading="lazy"
+            decoding="async"
+          />
+          <p class="photo-caption">Persoonlijke foto</p>
+        </section>
+
+        <!-- Profiel + persoonsgegevens -->
+        <section class="box profile-box">
+          <h2>Profiel</h2>
+
+          <p>
+            Joppe Kleinjan, 22 jaar oud en student aan het HBO (Windesheim in
+            Zwolle).
+          </p>
+
+          <h3>Persoonsgegevens</h3>
+
+          <dl>
+            <div class="data-row">
+              <dt>Naam:</dt>
+              <dd>Joppe Kleinjan</dd>
+            </div>
+            <div class="data-row">
+              <dt>Leeftijd:</dt>
+              <dd>22</dd>
+            </div>
+            <div class="data-row">
+              <dt>Opleidingsniveau:</dt>
+              <dd>HBO Windesheim Zwolle</dd>
+            </div>
+          </dl>
+        </section>
+
+        <!-- Over mij: brede box onder foto + profiel op desktop -->
+        <section class="box full">
+          <h2>Over mij:</h2>
+          <p>
+            Ik ben Joppe Kleinjan, een gemotiveerde HBO-student aan Windesheim
+            in Zwolle. Ik vind het belangrijk om duidelijke en betrouwbare
+            websites te bouwen die op elk apparaat goed werken. Ik werk graag
+            gestructureerd en leer snel nieuwe technieken om mijn
+            webdevelopment-skills te verbeteren.
+          </p>
+        </section>
+      </section>
+
+      <!-- ONDER: vaardigheden / werkervaring / opleiding / contact -->
+      <section class="bottom-grid" aria-label="Overzicht">
+        <section class="box">
+          <h2>Vaardigheden</h2>
+          <ul class="list">
+            <li>PHP</li>
+            <li>HTML</li>
+            <li>CSS</li>
+          </ul>
+        </section>
+
+        <section class="box">
+          <h2>Werkervaring(en)</h2>
+          <ul class="list">
+            <li>
+              <strong>Exaforte</strong>, Bunschoten — Stagiair PHP / React
+              developer<br />
+              Februari 2024 – Juni 2024<br />
+              Contactpersoon: Dennis Meijer
+            </li>
+          </ul>
+        </section>
+
+        <section class="box">
+          <h2>Opleiding(en)</h2>
+          <ul class="list">
+            <li>
+              <strong>HBO-ICT</strong>, Windesheim Zwolle — HBO Bachelor<br />
+              September 2024<br />
+              Afgerond met 7
+            </li>
+          </ul>
+        </section>
+
+        <!-- Contact staat als 4e box; op desktop komt die automatisch onder de 1e kolom -->
+        <section class="box">
+          <h2>Contactgegevens</h2>
+          <ul class="contact-list">
+            <li>
+              <span class="label">Telefoon:</span>
+              <a href="tel:+316123456789">+31 6 123456789</a>
+            </li>
+            <li>
+              <span class="label">Email:</span>
+              <a href="mailto:joppe.kleinjan@gmail.com"
+                >joppe.kleinjan@gmail.com</a
+              >
+            </li>
+          </ul>
+        </section>
+      </section>
+
+      <footer>
+        <p>
+          Deze profielpagina is een statische webpagina (HTML/CSS) en is bedoeld
+          als online CV.
+        </p>
+      </footer>
+    </main>
+  </body>
+</html>

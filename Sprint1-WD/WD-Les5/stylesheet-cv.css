@@ -1,100 +1,316 @@
-/* basis */
+/* =========================
+   BASIS (simpel en duidelijk)
+   ========================= */
 * {
   box-sizing: border-box;
 }
+
 body {
   margin: 0;
   font-family: Arial, Helvetica, sans-serif;
-  line-height: 1.5;
-}
-a {
-  color: inherit;
+  line-height: 1.6;
+  background: #f4f6f9;
+  color: #111827;
 }
 
+/* Pagina breedte  */
 .page {
-  max-width: 1000px;
+  max-width: 1100px;
   margin: 0 auto;
-  padding: 20px;
+  padding: 18px 14px;
+  padding-bottom: 60px; /* extra ruimte onderaan zodat je altijd kan scrollen */
 }
 
-/* skip link */
+/* Links */
+a {
+  color: #0b5bd3;
+  text-decoration: underline;
+}
+a:hover {
+  text-decoration-thickness: 3px;
+}
+
+/* Toetsenbord-focus zichtbaar (toegankelijkheid) */
+:focus-visible {
+  outline: 3px solid #0b5bd3;
+  outline-offset: 3px;
+}
+
+/* =========================
+   SKIP LINK (WCAG)
+   ========================= */
 .skip-link {
   position: absolute;
   left: -9999px;
   top: 10px;
-  background: #000;
+  background: #0b5bd3;
   color: #fff;
   padding: 10px 12px;
+  border-radius: 8px;
 }
 .skip-link:focus {
-  left: 10px;
+  left: 12px;
 }
 
-/* layout */
-.hero {
+/* =========================
+   LAYOUT CV (sidebar + content)
+   ========================= */
+.cv {
   display: grid;
-  grid-template-columns: 2fr 1fr;
-  gap: 20px;
+  grid-template-columns: 340px 1fr; /* sidebar + content */
+  gap: 0;
+  background: #fff;
+  border: 1px solid #d1d5db;
+}
+
+/* =========================
+   SIDEBAR
+   ========================= */
+.sidebar {
+  background: #2f6f9a; /* blauwe balk */
+  color: #fff;
+  padding: 18px;
+}
+
+.sidebar-top {
+  text-align: center;
+  margin-bottom: 16px;
+}
+
+/* ronde foto zoals PDF */
+.sidebar-photo {
+  width: 210px;
+  height: 210px;
+  object-fit: cover;
+  border-radius: 50%;
+  border: 4px solid rgba(255, 255, 255, 0.3);
+}
+
+.sidebar-title {
+  margin: 14px 0 0;
+  font-size: 28px;
+}
+
+/* blokken in sidebar */
+.side-block {
+  margin-top: 18px;
+  padding-top: 14px;
+  border-top: 2px solid rgba(255, 255, 255, 0.35);
+}
+
+.side-heading {
+  margin: 0 0 10px;
+  font-size: 26px;
+}
+
+/* lijstjes simpel */
+.side-list {
+  margin: 0;
+  padding-left: 18px;
+}
+.side-list li {
+  margin: 8px 0;
+}
+
+/* links in sidebar wit */
+.sidebar a {
+  color: #fff;
+}
+
+/* =========================
+   CONTENT (rechterkant)
+   ========================= */
+.content {
+  padding: 20px 22px;
+}
+
+.name {
+  margin: 0 0 8px;
+  font-size: 46px;
+  color: #111827;
+}
+
+.content-top {
+  margin-bottom: 6px;
+}
+
+/* kop + lijn zoals PDF */
+.content-head {
+  display: grid;
+  grid-template-columns: auto 1fr;
+  align-items: center;
+  gap: 14px;
+  margin: 20px 0 10px;
+}
+
+.content-head h2 {
+  margin: 0;
+  font-size: 34px;
+  color: #111827;
+}
+
+.line {
+  height: 2px;
+  background: #d1d5db;
+}
+
+/* blokken */
+.content-block p {
+  margin: 0 0 10px;
+}
+
+/* =========================
+   TIMELINE (datum links, tekst rechts)
+   ========================= */
+.timeline {
+  display: grid;
+  gap: 16px;
+}
+
+.item {
+  display: grid;
+  grid-template-columns: 170px 1fr;
+  gap: 16px;
   align-items: start;
 }
 
-.role {
+.when {
+  margin: 0;
+  color: #0b5bd3; /* blauw zoals PDF */
   font-weight: 700;
 }
-.tagline {
-  font-style: italic;
+
+.job {
+  margin: 0;
+  font-size: 18px;
 }
 
-.photo {
-  width: 100%;
-  height: auto;
-  border-radius: 10px;
+.place {
+  margin: 2px 0 6px;
+  color: #0b5bd3;
 }
 
-.card,
-.project {
-  border: 2px solid #000;
-  border-radius: 10px;
-  padding: 12px;
+.desc {
+  margin: 0;
 }
 
-.projects {
-  display: grid;
-  grid-template-columns: repeat(2, 1fr);
-  gap: 12px;
-}
-
-.section {
-  margin-top: 20px;
-}
-
-/* focus zichtbaar */
-a:focus-visible {
-  outline: 3px solid #000;
-  outline-offset: 3px;
-}
-
-/* mobiel */
-@media (max-width: 768px) {
-  .hero {
-    grid-template-columns: 1fr;
+/* =========================
+   RESPONSIVE (mobiel: alles onder elkaar)
+   ========================= */
+@media (max-width: 900px) {
+  .cv {
+    grid-template-columns: 1fr; /* sidebar boven, content onder */
   }
-  .projects {
-    grid-template-columns: 1fr;
+
+  .sidebar {
+    padding: 16px;
+  }
+
+  .content {
+    padding: 16px;
+  }
+
+  .name {
+    font-size: 36px;
+  }
+
+  .item {
+    grid-template-columns: 1fr; /* datum boven tekst */
+    gap: 6px;
   }
 }
 
-/* print */
+/* =========================
+   PRINT (NFR1: printbaar)
+   - Geen blauwe achtergrond (printers printen dat soms niet)
+   - Alles zwart/wit en netjes
+   ========================= */
+@page {
+  size: A4;
+  margin: 12mm;
+}
+
 @media print {
-  * {
+  body {
+    background: #fff;
+    color: #000;
+    font-size: 10pt;
+    line-height: 1.25;
+  }
+
+  .page {
+    max-width: none;
+    padding: 0;
+  }
+
+  .cv {
+    border: 0;
+  }
+
+  /* Sidebar in print wit (zodat het altijd leesbaar is) */
+  .sidebar {
+    background: #fff !important;
     color: #000 !important;
-    background: transparent !important;
+    border-right: 2px solid #000;
   }
-  .card,
-  .project {
-    border-color: #000 !important;
+
+  .sidebar a {
+    color: #000 !important;
   }
+
+  .line {
+    background: #000;
+  }
+
+  .when,
+  .place {
+    color: #000 !important;
+  }
+
+  /* Foto kleiner in print */
+  .sidebar-photo {
+    width: 120px;
+    height: 120px;
+    border: 2px solid #000;
+  }
+
+  /* Skiplink niet printen */
   .skip-link {
     display: none !important;
   }
+
+  /* Kaarten niet halverwege breken */
+  .item {
+    break-inside: avoid;
+    page-break-inside: avoid;
+  }
+
+  /* Geen extra URL achter links */
+  a[href]::after {
+    content: "";
+  }
 }
+
+/* =========================
+   (OPTIONEEL) DARK MODE (NFR2 = Could)
+   Als je dit NIET wil: verwijder dit hele blok.
+   ========================= */
+/*
+@media (prefers-color-scheme: dark) {
+  body {
+    background: #0b1220;
+    color: #e5e7eb;
+  }
+  .cv {
+    background: #0f172a;
+    border-color: #334155;
+  }
+  .content-head h2,
+  .name {
+    color: #e5e7eb;
+  }
+  .line {
+    background: #334155;
+  }
+}
+*/
