@@ -1,0 +1,56 @@
+﻿@model Portfoliowebsite.Models.ContactFormModel
+@{
+    ViewData["Title"] = "Contact";
+}
+
+<h1>Contact</h1>
+
+<form id="contactForm" asp-action="Index" method="post" novalidate>
+    @Html.AntiForgeryToken()
+
+    <!-- Shows general/server-side errors (FR04) -->
+    <div asp-validation-summary="ModelOnly"
+         class="error"
+         role="alert"
+         aria-live="assertive"></div>
+
+    <!-- Honeypot: hidden visually, checked server-side (RSK6) -->
+    <div class="hp" aria-hidden="true">
+        <label asp-for="Website">Laat dit veld leeg</label>
+        <input asp-for="Website" tabindex="-1" autocomplete="off" />
+    </div>
+
+    <div class="field">
+        <label asp-for="Name"></label>
+        <input asp-for="Name" autocomplete="name" />
+        <span asp-validation-for="Name" class="error"></span>
+    </div>
+
+    <div class="field">
+        <label asp-for="Email"></label>
+        <input asp-for="Email" type="email" autocomplete="email" />
+        <span asp-validation-for="Email" class="error"></span>
+    </div>
+
+    <div class="field">
+        <label asp-for="Subject"></label>
+        <input asp-for="Subject" autocomplete="off" />
+        <span asp-validation-for="Subject" class="error"></span>
+    </div>
+
+    <div class="field">
+        <label asp-for="Message"></label>
+        <textarea asp-for="Message" rows="5"></textarea>
+        <span asp-validation-for="Message" class="error"></span>
+    </div>
+
+    <!-- For status updates; screenreaders can announce submit -->
+    <div id="liveStatus" class="visually-hidden" aria-live="polite"></div>
+
+    <!-- button: keyboard + semantics (WCAG) -->
+    <button type="submit" class="send-button">Versturen</button>
+</form>
+
+@section Scripts {
+    <partial name="_ValidationScriptsPartial" />
+}

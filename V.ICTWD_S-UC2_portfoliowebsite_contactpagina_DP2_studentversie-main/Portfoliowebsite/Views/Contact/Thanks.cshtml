@@ -1,0 +1,11 @@
+﻿@{
+    ViewData["Title"] = "Bedankt";
+}
+
+<h1>Bedankt!</h1>
+
+<p>Bedankt, @TempData["ThanksName"]. We nemen contact op via @TempData["ThanksEmail"].</p>
+<p>Je bericht:</p>
+<div class="message-preview">@TempData["ThanksMessage"]</div>
+
+<a class="btn btn-secondary" asp-controller="Contact" asp-action="Index">Terug naar formulier</a>
